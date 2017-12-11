@@ -2,19 +2,36 @@
 <html>
 <head>
 	<title>Becky's Trivia Game</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
 	<div id="#header">
 	</div>
 
-	<div id="#stopWatch"></div>
+	<div id="wrapper">
+
+    	<div id="display">2:00</div>
+
+      <!-- Div containing our stopwatch controls -->
+<!--     		<div id="buttons">
+        		<button id="start">Start</button>
+        		<button id="stop">Stop</button>
+        		<button id="reset">Reset</button>
+        		<button id="lap">Lap</button>
+      		</div> -->
+
+    </div>
 	<div id="question"></div>
+	<div>
+		<button id="submit">Submit Answers</button>
+		<button id="restart">Restart Game</button>
+	</div>
+	<div id="results"></div>
 
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-	<script type="text/javascript" src="app.js"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
 
 </body>
 </html>
